@@ -1,7 +1,7 @@
 # Word-Count with Python-Django
-```
-    This website is created in Python with the help of Django framework.
-```
+
+This website is created in Python with the help of Django framework.
+
 
 # To Clone the repo:
 ```
