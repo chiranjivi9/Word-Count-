@@ -1,0 +1,18 @@
+<h1> Word Count </h1>
+
+<a href ="{% url 'homepage' %}">Go Back</a>
+
+<h1> There are {{ count }} words </h1>
+
+<h1> Your Text:</h1> <br />
+
+{{ fulltext }} <br />
+<br />
+
+<p> The count of each word from the above text is : </p> <br />
+<!-- for loop to iterate through the wordDictionary -->
+{% for word, countTotal in sortedWords %}
+  {{word}} - {{countTotal}}
+   <br />
+
+{% endfor %}
